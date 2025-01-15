@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.main{
+    border: 3px solid firebrick;
+    height: 1500px;
+    background: linear-gradient(45deg, rgba(255, 49, 49, 0.895), rgba(37, 37, 252, 0.9));
+    text-align: center;
+}
+
+.pic img{
+    width: 200px;
+    border-radius: 50%;
+    border: 2px dotted red;
+}
+
+h2{
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+b{
+    color: darkorange;
+}
+
+.links{
+    display: block;
+    border: 3px solid ;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 500ms;
+}
+
+.links:hover{
+    border-radius: 20px 0px 20px 0px;
+    background-image:linear-gradient(red 50%, blue 50%);
+    transition: 500ms;
+}
+
+a{
+    color: bisque;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+.copy{
+    padding: 20px;
+}
+
+span{
+    color: darkkhaki;
+}
